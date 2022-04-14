@@ -51,6 +51,7 @@ public class TaskDialogScreen extends javax.swing.JDialog {
         jTextAreaNotes = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(500, 600));
 
         jPanelToolBar.setBackground(new java.awt.Color(153, 153, 255));
 
@@ -122,6 +123,7 @@ public class TaskDialogScreen extends javax.swing.JDialog {
         jLabelNotes.setText("Notas");
 
         jTextAreaNotes.setColumns(20);
+        jTextAreaNotes.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTextAreaNotes.setRows(5);
         jTextAreaNotes.setSelectionColor(new java.awt.Color(153, 153, 255));
         jScrollPaneNotes.setViewportView(jTextAreaNotes);
@@ -181,7 +183,7 @@ public class TaskDialogScreen extends javax.swing.JDialog {
             Task task = new Task();
             
             //relacionando Fk com a tarefa ao qual pertence
-            //task.setIdProject(project.getId());
+            task.setIdProject(project.getId());
             
             task.setName(jTextFieldName.getText());
             task.setDescription(jTextAreaDescription.getText());

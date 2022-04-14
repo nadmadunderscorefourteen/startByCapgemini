@@ -142,7 +142,7 @@ public class ProjectDialogScreen extends javax.swing.JDialog {
         
         try{
             Project project = new Project();
-            project.setName(jTextFieldName.getName());
+            project.setName(jTextFieldName.getText());
             project.setDescription(jTextAreaDescription.getText());
             controller.save(project);
             JOptionPane.showMessageDialog(rootPane, "Projeto salvo");
