@@ -96,6 +96,7 @@ public class ProjectDialogScreen extends javax.swing.JDialog {
         jLabelDescription.setText("Descrição");
 
         jTextAreaDescription.setColumns(20);
+        jTextAreaDescription.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTextAreaDescription.setRows(5);
         jTextAreaDescription.setSelectionColor(new java.awt.Color(153, 153, 255));
         jScrollPaneDescription.setViewportView(jTextAreaDescription);

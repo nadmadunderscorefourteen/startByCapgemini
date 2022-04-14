@@ -37,13 +37,13 @@ public class Main {
         
         //projectController.removeById(1);
        
-       /* TaskController taskController = new TaskController();
+  /*     TaskController taskController = new TaskController();
         
         Task task = new Task();
         task.setIdProject(2);
-        task.setName("Criar as telas da aplicação");
-        task.setDescription("Devem ser criadas telas para cadastros");
-        task.setNotes("Nada  a declarar");
+        task.setName("Criar model");
+        task.setDescription("Criando um model de tarefas");
+        task.setNotes("Tarefa teste");
         task.setIsCompleted(false);
         task.setDeadline(new Date());
         
