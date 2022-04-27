@@ -67,8 +67,7 @@ public class TaskTableModel extends AbstractTableModel{
             default:
                 return "Dados não encontrados";
         }
-    
-    }
+}
     
     @Override
     public void setValueAt(Object aValue, int rowIndex, int columnIndex){
